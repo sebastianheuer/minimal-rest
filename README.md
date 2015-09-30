@@ -9,7 +9,7 @@ A simplistic micro framework for building an application providing a RESTful API
 
 ## Usage
 
-Have a look at ```/example/application.php``` for a quick start. It uses ```RestHandler```, sets up a route for ```/``` that will return a json object containing "Hello World!" to the client.
+Have a look at ```/example/application.php``` for a quick start. It creates a  ```Router``` and the ```Application```, sets up a ```Route for``` ```/``` that will return a JSON response containing "Hello World!" to the client.
 
 You can use PHP's [builtin webserver](http://php.net/manual/en/features.commandline.webserver.php) to test it for yourself!
 
