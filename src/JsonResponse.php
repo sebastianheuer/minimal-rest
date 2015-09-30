@@ -29,6 +29,7 @@ class JsonResponse implements ResponseInterface
     public function flush()
     {
         http_response_code($this->statusCode);
+        header('Content-type: application/json');
         echo json_encode($this->body, JSON_PRETTY_PRINT);
     }
 }
