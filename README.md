@@ -1,6 +1,6 @@
 # PHP REST Micro Framework
 
-A simplistic micro framework for building an application providing a RESTful API.
+A simplistic micro framework for building an application providing a [RESTful](https://twitter.com/php_ceo/status/648607372408147969) API.
 
 ## Prerequsites
 
